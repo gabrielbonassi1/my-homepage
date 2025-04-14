@@ -1,8 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: "/my-homepage",
     output: 'export',
-    reactStrictMode: true,
+    images: {
+        unoptimized: true
+    },
+    trailingSlash: true
 };
 
 export default nextConfig;
