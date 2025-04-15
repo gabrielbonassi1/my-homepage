@@ -34,7 +34,7 @@ export default class Contact extends React.Component {
                 ) : (
                   <form onSubmit={this.handleSubmit} className="space-y-4">
                     <div>
-                      <label htmlFor="name" className="block text-sm font-medium text-gray-700">Nome</label>
+                      <label htmlFor="name" className="block text-sm font-medium text-text">Nome</label>
                       <input
                         type="text"
                         id="name"
@@ -47,7 +47,7 @@ export default class Contact extends React.Component {
                     </div>
 
                     <div>
-                      <label htmlFor="email" className="block text-sm font-medium text-gray-700">E-mail</label>
+                      <label htmlFor="email" className="block text-sm font-medium text-text">E-mail</label>
                       <input
                         type="email"
                         id="email"
@@ -60,7 +60,7 @@ export default class Contact extends React.Component {
                     </div>
 
                     <div>
-                      <label htmlFor="message" className="block text-sm font-medium text-gray-700">Mensagem</label>
+                      <label htmlFor="message" className="block text-sm font-medium text-text">Mensagem</label>
                       <textarea
                         id="message"
                         name="message"
@@ -74,7 +74,7 @@ export default class Contact extends React.Component {
 
                     <button
                       type="submit"
-                      className="mt-4 p-2 bg-blue-600 text-white rounded hover:bg-blue-700"
+                      className="mt-4 p-2 bg-primary text-text rounded hover:bg-primary"
                     >
                       Enviar mensagem
                     </button>
