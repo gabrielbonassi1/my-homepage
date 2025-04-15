@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 @import "tailwindcss";
 
 @theme {
-  --font-display: "Satoshi", "sans-serif";
+  --font-display: "Rubik", sans-serif;
 
   /* Paleta de cores - Azul */
   --color-background: #05463E;
